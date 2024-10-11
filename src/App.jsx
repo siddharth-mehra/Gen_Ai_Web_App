@@ -7,10 +7,12 @@ const App = () => {
 
       <div className='form-container'>
         <form className='Query'>
+          <label>Enter FirstName</label>
+          <input className='query-input' type="text" placeholder="Enter FirstName"/>
+          <label>Enter LastName</label>
+          <input className='query-input' type="text" placeholder="Enter LastName"/>
           <label>Enter Query</label>
           <input className='query-input' type="text" placeholder="Enter your query"/>
-          <label>Enter class</label>
-          <input className='query-input' type="text" placeholder="Enter class"/>
         </form>
       </div>
     </div>
